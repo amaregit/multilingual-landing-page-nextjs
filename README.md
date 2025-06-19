@@ -28,3 +28,60 @@ Inspired by Ethiopian café culture ☕️.
 
 ## 📁 Project Structure
 
+src/
+├── app
+│ ├── [locale] (dynamic locale routes)
+│ ├── layout.tsx
+├── components
+│ ├── HeroSection
+│ ├── MenuSection
+│ ├── ContactForm
+│ ├── Header
+│ ├── LanguageToggle
+├── i18n (navigation & translations)
+├── middleware.ts (locale detection)
+└── providers/NextIntlProvider.tsx
+
+## 🏗️ i18n Architecture
+
+This project uses **Next-Intl** to support dynamic internationalization:
+
+- `/src/i18n/routing.ts`: defines supported locales (`en`, `am`)
+- `/src/i18n/navigation.ts`: locale-aware Next.js navigation helpers
+- `/src/i18n/request.ts`: dynamic locale detection & message loading
+
+**Dynamic segment:** `/[locale]/page.tsx` → Example: `/en`, `/am`
+
+**Middleware:** detects locale from URL and serves correct content.
+
+
+## 🚀 Live Demo
+
+👉 [(https://multilingual-landing-page-nextjs.vercel.app/en)]
+
+## 🐳 Deployment
+
+This project is automatically deployed with **Vercel CI/CD** — on every push to `main` branch.
+
+## 🧑 Author
+
+Amare Zeru  
+[LinkedIn](https://linkedin.com/in/amare_zeru)  
+[GitHub](https://github.com/amarezegit)
+
+## 🤝 Contributions
+
+PRs & feedback welcome! 🌍
+
+---
+
+## How to Run Locally
+
+```bash
+# Install deps
+npm install
+
+# Run dev server
+npm run dev
+
+# Open http://localhost:3000/en or /am
