@@ -1,0 +1,48 @@
+{
+  "Test": { "hello": "Hello" },
+  "Header": { "home": "Home", "menu": "Menu", "about": "About", "contact": "Contact" },
+  "Home": {
+    "heroTitle": "Authentic Ethiopian Coffee Experience",
+    "heroSubtitle": "Traditional bunna ceremony served with modern elegance in Addis Ababa",
+    "heroImageAlt": "Traditional Ethiopian coffee ceremony at Selamta Café",
+    "viewMenuButton": "View Menu",
+    "reserveButton": "Reserve a Table",
+    "ceremonyText": "Daily coffee ceremonies at 11AM & 4PM",
+    "aboutTitle": "About Selamta Café",
+    "aboutText": "Experience authentic Ethiopian coffee culture in the heart of Addis Ababa. Our café brings traditional bunna ceremonies to the modern world.",
+    "cafeImageAlt": "Cozy interior of Selamta Café",
+    "hoursTitle": "Opening Hours",
+    "hoursText": "Monday - Sunday: 7:00 AM - 10:00 PM",
+    "addressTitle": "Visit Us",
+    "addressLine1": "Bole Road, Addis Ababa",
+    "addressLine2": "Ethiopia"
+  },
+
+  "Menu": {
+    "title": "Our Coffee Menu",
+    "currency": "ETB",
+    "priceFormat": "{price} {currency}",
+    "items": {
+      "coffee": "Traditional Coffee",
+      "latte": "Ethiopian Latte",
+      "espresso": "Single Origin Espresso",
+      "cappuccino": "Spiced Cappuccino",
+      "mocha": "Buna Mocha",
+      "macchiato": "Macchiato",
+      "americano": "Americano",
+      "cortado": "Cortado"
+    },
+    "descriptions": {
+      "coffee": "<small>Served with traditional <em>jebena</em> and incense</small>",
+      "latte": "<small>With <em>tej</em> honey option</small>"
+    }
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "nameLabel": "Your Name",
+    "emailLabel": "Email Address",
+    "messageLabel": "Your Message",
+    "submitButton": "Send Message",
+    "successMessage": "Thank you! We'll contact you soon."
+  }
+}

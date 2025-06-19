@@ -1,0 +1,47 @@
+{
+  "Test": { "hello": "ሰላም" },
+  "Header": { "home": "አዲስ", "about": "ማስታዎት", "menu": "ምናሌ", "contact": "ስልክ" },
+  "Home": {
+    "heroTitle": "እውነተኛ የኢትዮጵያ ቡና ልምድ",
+    "heroSubtitle": "ባህላዊ ቡና ሥርዓት በዘመናዊ አበል በአዲስ አበባ",
+    "heroImageAlt": "በሰላምታ ካፌ የሚካሄድ ባህላዊ የቡና ሥርዓት",
+    "viewMenuButton": "ምናሌ ይመልከቱ",
+    "reserveButton": "ጠረጴዛ ያስይዙ",
+    "ceremonyText": "ዕለታዊ ቡና ሥርዓት ከጠዋት 11፡00 እና ከምሽቱ 4፡00",
+    "aboutTitle": "ስለ ሰላምታ ካፌ",
+    "aboutText": "በአዲስ አበባ ልብ ውስጥ የኢትዮጵያ ቡና ባህልን ይለማመዱ። ካፌችን ባህላዊ ቡና ሥርዓቶችን ወደ ዘመናዊ ዓለም ያመጣል።",
+    "cafeImageAlt": "የሰላምታ ካፌ ሞቅ ያለ ውስጣዊ አለባበስ",
+    "hoursTitle": "የስራ ሰዓት",
+    "hoursText": "ሰኞ - እሑድ: 7:00 ጥዋት - 10:00 ምሽት",
+    "addressTitle": "ይጎብኙን",
+    "addressLine1": "ቦሌ መንገድ, አዲስ አበባ",
+    "addressLine2": "ኢትዮጵያ"
+  },
+  "Menu": {
+    "title": "የቡና ምናሌ",
+    "currency": "ብር",
+    "priceFormat": "{price} {currency}",
+    "items": {
+      "coffee": "ባህላዊ ቡና",
+      "latte": "ኢትዮጵያዊ ላቴ",
+      "espresso": "ነጠላ ምንጭ ኢስፕሪሶ",
+      "cappuccino": "በምርኩ ካፑቺኖ",
+      "mocha": "ቡና ሞካ",
+      "macchiato": "ማኪያቶ",
+      "americano": "አሜሪካኖ",
+      "cortado": "ኮርታዶ"
+    },
+    "descriptions": {
+      "coffee": "<small>በባህላዊ <em>ጀበና</em> እና ጨውማገናኝ</small>",
+      "latte": "<small>በ<em>ጠጅ</em> ማር አማራጭ</small>"
+    }
+  },
+  "Contact": {
+    "title": "አግኙን",
+    "nameLabel": "ስምዎ",
+    "emailLabel": "የኢሜል አድራሻ",
+    "messageLabel": "መልእክትዎ",
+    "submitButton": "መልእክት ላክ",
+    "successMessage": "አመሰግናለሁ! በቅርቡ እንገናኝዎታለን።"
+  }
+}
