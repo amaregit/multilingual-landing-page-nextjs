@@ -28,19 +28,19 @@ Inspired by Ethiopian café culture ☕️.
 
 ## 📁 Project Structure
 
-src/
-├── app
-│ ├── [locale] (dynamic locale routes)
-│ ├── layout.tsx
-├── components
-│ ├── HeroSection
-│ ├── MenuSection
-│ ├── ContactForm
-│ ├── Header
-│ ├── LanguageToggle
-├── i18n (navigation & translations)
-├── middleware.ts (locale detection)
-└── providers/NextIntlProvider.tsx
+-src/
+-├── app
+-│ ├── [locale] (dynamic locale routes)
+-│ ├── layout.tsx
+-├── components
+-│ ├── HeroSection
+-│ ├── MenuSection
+-│ ├── ContactForm
+-│ ├── Header
+-│ ├── LanguageToggle
+-├── i18n (navigation & translations)
+-├── middleware.ts (locale detection)
+-└── providers/NextIntlProvider.tsx
 
 ## 🏗️ i18n Architecture
 
