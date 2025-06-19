@@ -63,7 +63,7 @@ This project uses **Next-Intl** to support dynamic internationalization:
 
 ## 🚀 Live Demo
 
-👉 [(https://multilingual-landing-page-nextjs.vercel.app/en)]
+👉 [https://multilingual-landing-page-nextjs.vercel.app/en](https://multilingual-landing-page-nextjs.vercel.app/en)
 
 ## 🐳 Deployment
 
